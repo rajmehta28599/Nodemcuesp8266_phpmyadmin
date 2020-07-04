@@ -1,8 +1,12 @@
+/* Code Written by Raj Mehta 
+Web Site:https://github.com/rajmehta28599/Nodemcuesp8266_phpmyadmin
+*/
+
 <?php
 $host = "localhost";		         // host = localhost because database hosted on the same server where PHP files are hosted
-$username = "id14256457_dusername";
+$username = "i57_dusername";
 $password = "s@Cl9ENk*\KeNgL>";
-$dbname = "id14256457_dname";
+$dbname = "id16457_dname";
 
 
 // Establish connection to MySQL database
@@ -17,7 +21,7 @@ if ($conn->connect_error) {
 else { echo "Connected to mysql database. <br>"; }
 // Select values from MySQL database table
 
-$sql = "SELECT * FROM Gps";  // Update your tablename here
+$sql = "SELECT * FROM tablename ";  // Update your tablename here
 $result = $conn->query($sql);
 echo "<center>";
 
